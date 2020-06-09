@@ -4,11 +4,11 @@
 
 function getInput(num) {
   let cel= num * 9/5 +32
-  let msg= "this" + " "+  num + "F" + "is equal to"+ " " + cel+ "C"
+  let msg= "this" + " "+  num + "F" + " "+ "is equal to"+ " " + cel+ "C"
    return  msg
 
 }
- console.log(getInput(4))
+ console.log(getInput(14))
 
 
 
