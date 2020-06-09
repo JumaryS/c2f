@@ -1,14 +1,11 @@
 /*******************************************************************************
  * Your code here!
  ******************************************************************************/
+let cel= process.argv[2]
+let fer= (cel * 9/5) + 32
+console.log(cel, 'in C', "is", fer, "in F")
 
-function cToF(num) {
-  
- let cel = process.argv[2]
- let fer = cel * 9/5 +32
- return num *fer
-}
- cToF()
+
 
 
 
