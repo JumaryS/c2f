@@ -2,6 +2,13 @@
  * Your code here!
  ******************************************************************************/
 
+function getInput(num) {
+  let cel= num * 9/5 +32
+  let msg= "this" + " "+  num + "F" + "is equal to"+ " " + cel+ "C"
+   return  msg
+
+}
+ console.log(getInput(4))
 
 
 
@@ -36,6 +43,7 @@
   first one, getInput(0) should be all you need.
  ******************************************************************************************/
 
-function getInput(n) {
-  return process.argv[n + 2];
+function getInput1(n) {
+  return process.argv[n * 9/5 +32];
 }
+ console.log(getInput1(13))
