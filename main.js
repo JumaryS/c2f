@@ -2,13 +2,13 @@
  * Your code here!
  ******************************************************************************/
 
-function getInput(num) {
+function cToF(num) {
   let cel= num * 9/5 +32
   let msg= "this" + " "+  num + "F" + " "+ "is equal to"+ " " + cel+ "C"
-   return  msg
+   return process.argv[msg] 
 
 }
- console.log(getInput(14))
+ cToF()
 
 
 
@@ -44,6 +44,6 @@ function getInput(num) {
  ******************************************************************************************/
 
 function getInput1(n) {
-  return process.argv[n * 9/5 +32];
+  return process.argv[n +2];
 }
  console.log(getInput1(13))
