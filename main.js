@@ -3,10 +3,10 @@
  ******************************************************************************/
 
 function cToF(num) {
-  let cel= num * 9/5 +32
-  let msg= "this" + " "+  num + "F" + " "+ "is equal to"+ " " + cel+ "C"
-   return process.argv[msg] 
-
+  
+ let cel = process.argv[2]
+ let fer = cel * 9/5 +32
+ return num *fer
 }
  cToF()
 
