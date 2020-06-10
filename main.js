@@ -11,31 +11,31 @@ console.log(cel, 'in C', "is", fer, "in F")
 cToF()
 
 
-function input(num){
-  let celsius = num* 9/5 + 32
-  console.log(num *celsius)
-  return num * celsius
-}
-input()
+// function input(num){
+//   let celsius = num* 9/5 + 32
+//   console.log(num *celsius)
+//   return num * celsius
+// }
+// input(10)
 
 
 
-let input1 = 0
-let cel= input1 * 9/5 +32
-let outPut = input(0) + cel
-console.log(input1 + ' ' +'converted to F is ' + outPut)
+// let input1 = 0
+// let cel= input1 * 9/5 +32
+// let outPut = input(0) + cel
+// console.log(input1 + ' ' +'converted to F is ' + outPut)
 
 
 
-let input2 = 100
-let cel1= input2 * 9/5 +32
-let outPut1 = input(100) 
-console.log(input2 + ' ' + 'converted to F is ' + outPut1)
+// let input2 = 100
+// let cel1= input2 * 9/5 +32
+// let outPut1 = input(100) 
+// console.log(input2 + ' ' + 'converted to F is ' + outPut1)
 
-let input3 = 5
-let cel3= input3 *9/5 +32
- let outPut3 = input(5) 
-console.log(input3 + " "  +'converted to F is ' + outPut3)
+// let input3 = 5
+// let cel3= input3 *9/5 +32
+//  let outPut3 = input(5) 
+// console.log(input3 + " "  +'converted to F is ' + outPut3)
 
 
 
@@ -71,7 +71,7 @@ console.log(input3 + " "  +'converted to F is ' + outPut3)
   first one, getInput(0) should be all you need.
  ******************************************************************************************/
 
-// function getInput1(n) {
-//   return process.argv[n +2];
-// }
-//  console.log(getInput(13))
+function getInput1(n) {
+  return process.argv[n +2];
+}
+console.log(getInput1())
